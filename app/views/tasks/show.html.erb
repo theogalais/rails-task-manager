@@ -1,0 +1,8 @@
+<h2><%= @task.title %></h2>
+<p><%= @task.details %></p>
+
+<%= link_to "Edit the task", edit_task_path %><br>
+
+<%= link_to tasks_path do %>
+  <i class="fas fa-history">Back to Tasks</i>
+<% end %>
